@@ -22,9 +22,26 @@
               
               cubic-bezier(n,n,n,n)	在 cubic-bezier 函数中定义自己的值。可能的值是 0 至 1 之间的数值。
 
-3,transform是用CSS3的transform属性制作的一个照片展开效果
+3.transform是用CSS3的transform属性制作的一个照片展开效果
 
       transform 属性向元素应用 2D 或 3D 转换。该属性允许我们对元素进行旋转(rotate)、缩放(scale)、移动(translate)或倾斜(skew)。
       
       这里还运用到了css3的transform-origin属性，transform-origin 属性允许设置旋转元素的基点位置。
       
+4.animation是用CSS3的animation属性制作的一个页面loading效果
+
+      animation 属性是一个简写属性，语法：animation: name duration timing-function delay iteration-count direction; 用于设置六个动画属性：
+      
+            animation-name	规定需要绑定到选择器的 keyframe 名称。
+            
+            animation-duration	规定完成动画所花费的时间，以秒或毫秒计。
+            
+            animation-timing-function	规定动画的速度曲线。
+            
+            animation-delay	规定在动画开始之前的延迟。
+            
+            animation-iteration-count	规定动画应该播放的次数。
+            
+            animation-direction	规定是否应该轮流反向播放动画。
+            
+      这里使用了animation-delay使5根线条缩放产生时间差，进而展现载入画面的一种动态效果。
